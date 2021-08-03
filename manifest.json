@@ -1,0 +1,30 @@
+{
+	"manifestVersion": 4,
+	"id": "123456",
+	"name": "AdobeXD Export Rendition Plugin",
+	"version": "0.0.1",
+	"main": "main.js",
+	"host": {
+		"app": "XD",
+		"minVersion": "36.0.0"
+	},
+	"entryPoints": [
+		{
+			"type": "command",
+			"id": "exportRendition",
+			"label": {
+				"default": "Export Rendition"
+			}
+		}
+	],
+	"icons": [
+		{
+			"width": 24,
+			"height": 24,
+			"path": "icons/icon.png",
+			"scale": [1,2],
+			"theme": ["all"],
+			"species": ["pluginList"]
+		}
+	]
+}
